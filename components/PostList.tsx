@@ -4,15 +4,13 @@ import type { PostMeta } from '@/types/post'
 
 export function PostList({ posts }: { posts: PostMeta[] }) {
   return (
-    <ul className="divide-y">
+    <div className="grid md:grid-cols-2 gap-4">
       {posts.map(p => (
-        <li key={p.slug} className="py-4">
-          <Link href={`/posts/${p.slug}/`} className="block">
-            <h3 className="font-medium">{p.title}</h3>
-            <p className="text-sm text-gray-500">{formatDate(p.date)} • {(p.tags||[]).join(' · ')}</p>
-          </Link>
-        </li>
+        <Link key={p.slug} href={`/posts/${p.slug}/`} className="card card-hover p-4 block">
+          <h3 className="font-medium line-clamp-2">{p.title}</h3>
+          <p className="text-sm text-gray-500 mt-1">{formatDate(p.date)} • {(p.tags||[]).join(' · ')}</p>
+        </Link>
       ))}
-    </ul>
+    </div>
   )
 }
