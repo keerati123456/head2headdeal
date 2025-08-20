@@ -2,7 +2,8 @@ import { notFound } from 'next/navigation'
 import { getAllPosts, getPostBySlug } from '@/lib/posts'
 import { formatDate } from '@/lib/date'
 import Link from 'next/link'
-import BuyButtons from '@/components/BuyButtons'
+import BuyButtons from '../../../../components/BuyButtons'
+
 
 export async function generateStaticParams() {
   return getAllPosts().map(p => ({ slug: p.slug }))
