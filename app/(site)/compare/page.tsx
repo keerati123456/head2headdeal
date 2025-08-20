@@ -75,7 +75,7 @@ function CardSide({ meta }: { meta: any }) {
   )
 }
 
-function ProsCons({ title, items }: { title: string; items?: string[] }) {
+function ProsCons({ title, items }: { title: string; items?: string[] | null }) {
   if (!items?.length) return null
   return (
     <div className="rounded-2xl border p-4">
