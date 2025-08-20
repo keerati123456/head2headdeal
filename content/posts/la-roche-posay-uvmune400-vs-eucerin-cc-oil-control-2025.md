@@ -1,7 +1,7 @@
 # หมัดต่อหมัดกันแดดยอดนิยม: La Roche-Posay UVMune400 Oil Control Gel SPF50+ vs Eucerin Sun Dry Touch CC Oil Control SPF50+
 
 
-![อินโฟกราฟิกเปรียบเทียบ La Roche-Posay vs Eucerin](/public/images/compare-sunscreen.png)
+![อินโฟกราฟิกเปรียบเทียบ La Roche-Posay vs Eucerin](/public/images/compare-sunscreen-v2.png)
 
 
 กำลังหา **กันแดดสำหรับคนเป็นสิว** หรือ **กันแดดคุมมัน** ที่ **ไม่อุดตัน** อยู่ใช่ไหม?
