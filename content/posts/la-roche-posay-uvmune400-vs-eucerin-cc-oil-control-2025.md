@@ -1,15 +1,15 @@
 ---
-slug: la-roche-posay-uvmune400-vs-eucerin-cc-oil-control-2025
-title: กันแดดหมัดต่อหมัด: La Roche-Posay UVMune400 Oil Control Gel SPF50+ vs Eucerin Sun Dry Touch CC Oil Control SPF50+
-date: 2025-08-20
-excerpt: รีวิวเปรียบเทียบกันแดดคุมมันสำหรับคนเป็นสิว—เลือกตัวไหนดีระหว่าง La Roche-Posay UVMune400 Oil Control Gel กับ Eucerin Sun Dry Touch CC Oil Control พร้อมตารางเทียบอ่านง่ายและคีย์เวิร์ดยอดฮิต
-tags: [กันแดด,คุมมัน,ผิวเป็นสิว,รีวิว,เปรียบเทียบ,LaRochePosay,Eucerin,2025]
-coverImage: https://images.unsplash.com/photo-1585238342028-4bbc3e2b4b6c?q=80&w=1200&auto=format&fit=crop
+slug: "la-roche-posay-uvmune400-vs-eucerin-cc-oil-control-2025"
+title: "กันแดดหมัดต่อหมัด: La Roche-Posay UVMune400 Oil Control Gel SPF50+ vs Eucerin Sun Dry Touch CC Oil Control SPF50+"
+date: "2025-08-20"
+excerpt: "รีวิวเปรียบเทียบกันแดดคุมมันสำหรับคนเป็นสิว—เลือกตัวไหนดีระหว่าง La Roche-Posay UVMune400 Oil Control Gel กับ Eucerin Sun Dry Touch CC Oil Control พร้อมตารางเทียบอ่านง่ายและคีย์เวิร์ดยอดฮิต"
+tags: ["กันแดด","คุมมัน","ผิวเป็นสิว","รีวิว","เปรียบเทียบ","LaRochePosay","Eucerin","2025"]
+coverImage: "https://images.unsplash.com/photo-1585238342028-4bbc3e2b4b6c?q=80&w=1200&auto=format&fit=crop"
 views: 0
 featured: true
 product:
-  brand: La Roche-Posay vs Eucerin
-  model: UVMune400 Oil Control Gel vs Sun Dry Touch CC Oil Control
+  brand: "La Roche-Posay vs Eucerin"
+  model: "UVMune400 Oil Control Gel vs Sun Dry Touch CC Oil Control"
   price: "฿1,350 vs ฿1,400"
 specs:
   SPF/PA: "SPF50+ / (LRS) ป้องกัน UVA, UVB, Long-UVA vs SPF50+ / ป้องกัน UVA, UVB"
@@ -20,12 +20,12 @@ specs:
   เหมาะกับผิว: "ผิวมัน-ผิวแพ้ง่าย vs ผิวมัน-ผิวผสม-มีรอยสิว ต้องการปกปิด"
   ปริมาณ: "50ml vs 50ml"
 pros:
-  - คุมมันดี เหมาะกับผิวมัน-สิวง่าย
-  - กันแดดจัดเต็ม เหมาะทั้งในเมืองและกลางแจ้ง
-  - ทาง่าย ไม่หนักหน้า (มีตัวเลือก CC ช่วยลดขั้นตอนแต่งหน้า)
+  - "คุมมันดี เหมาะกับผิวมัน-สิวง่าย"
+  - "กันแดดจัดเต็ม เหมาะทั้งในเมืองและกลางแจ้ง"
+  - "ทาง่าย ไม่หนักหน้า (มีตัวเลือก CC ช่วยลดขั้นตอนแต่งหน้า)"
 cons:
-  - ราคากลุ่มเวชสำอางค่อนข้างสูงกว่าแบรนด์ทั่วไป
-  - เฉด CC อาจไม่พอดีกับทุกโทนผิว (ฝั่ง Eucerin)
+  - "ราคากลุ่มเวชสำอางค่อนข้างสูงกว่าแบรนด์ทั่วไป"
+  - "เฉด CC อาจไม่พอดีกับทุกโทนผิว (ฝั่ง Eucerin)"
 ---
 
 # 🥊 กันแดดหมัดต่อหมัด: La Roche-Posay UVMune400 Oil Control Gel SPF50+ vs Eucerin Sun Dry Touch CC Oil Control SPF50+
