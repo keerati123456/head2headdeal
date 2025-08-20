@@ -3,6 +3,7 @@ import { getAllPosts, getPopularPosts } from '@/lib/posts'
 import { PopularGrid } from '@/components/PopularGrid'
 import { PostList } from '@/components/PostList'
 import { SearchBar } from '@/components/SearchBar'
+import { ArrowRight } from 'lucide-react'
 
 export default function HomePage() {
   const posts = getAllPosts()
@@ -10,26 +11,41 @@ export default function HomePage() {
   const latest = posts.slice(0, 10)
 
   return (
-    <div className="space-y-10">
-      {/* 2.1 กล่องค้นหาบทความ */}
-      <section className="rounded-3xl border p-6 bg-gray-50 dark:bg-gray-900/50">
-        <h1 className="text-2xl md:text-3xl font-bold">Head2HeadDeal</h1>
-        <p className="mt-1 text-gray-600 dark:text-gray-400">เปรียบเทียบสินค้าตัวต่อตัวแบบเข้าใจง่าย</p>
-        <div className="mt-4">
-          <SearchBar posts={posts.map(p => p.meta)} />
+    <div className="space-y-12">
+      {/* HERO */}
+      <section className="relative overflow-hidden rounded-3xl border px-6 py-12 md:py-16 hero-grad">
+        <div className="max-w-3xl">
+          <h1 className="text-3xl md:text-5xl font-extrabold leading-tight">
+            เปรียบเทียบ <span className="bg-clip-text text-transparent" style={{backgroundImage:'linear-gradient(135deg, hsl(var(--brand)), hsl(var(--brand-2)))'}}>Head-to-Head</span> เลือกแบบชาญฉลาด
+          </h1>
+          <p className="mt-3 text-gray-600 dark:text-gray-300 md:text-lg">
+            รีวิวเปรียบเทียบสินค้า 1v1 พร้อมตารางสเปก ข้อดี-ข้อสังเกต และสรุปสั้น ๆ
+          </p>
+          <div className="mt-6 flex flex-wrap items-center gap-3">
+            <Link href="/compare" className="btn btn-primary">
+              เริ่มเปรียบเทียบ <ArrowRight className="w-4 h-4"/>
+            </Link>
+            <Link href="#latest" className="btn btn-ghost">ดูโพสต์ล่าสุด</Link>
+          </div>
+        </div>
+
+        <div className="mt-8">
+          <div className="card p-4">
+            <SearchBar posts={posts.map(p => p.meta)} />
+          </div>
         </div>
       </section>
 
-      {/* 2.2 พื้นที่โชว์บทความยอดนิยม */}
+      {/* POPULAR */}
       <section>
-        <div className="flex items-baseline justify-between mb-3">
+        <div className="flex items-baseline justify-between mb-4">
           <h2 className="text-xl font-semibold">ยอดนิยม</h2>
           <Link href="#latest" className="text-sm text-blue-600 hover:underline">ไปยังโพสต์ล่าสุด →</Link>
         </div>
         <PopularGrid posts={popular.map(p => p.meta)} />
       </section>
 
-      {/* 2.3 Feed บทความล่าสุด */}
+      {/* LATEST */}
       <section id="latest">
         <h2 className="text-xl font-semibold mb-3">ล่าสุด</h2>
         <PostList posts={latest.map(p => p.meta)} />
